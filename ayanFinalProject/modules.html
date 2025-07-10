@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Helldivers 2 Gameplay</title>
+    <link rel="stylesheet" href="finalStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Ensures site changes based on width of screen-->
+  </head>
+  <body>
+      
+    <div class="header">
+      <h1><a name="top">Helldivers 2 Guide</a></h1>
+    </div>
+    <!--Main heading for Helldivers 2 Guide site-->
+    
+    <div class="nav">
+      <ul class="navbar">
+        <li class="navlinks"><a href="gameplay.html">Home</a></li>
+        <li class="navlinks"><a href="enemy.html">Enemies</a></li>
+        <li class="navlinks"><a href="weapons.html">Weapons</a></li>
+        <li class="navlinks"><a href="armor.html">Armor</a></li>
+        <li class="navlinks"><a href="stratagems.html">Stratagems</a></li>
+        <li class="navlinks"><a href="modules.html">Ship Modules</a></li>
+        <li class="navlinks"><a href="currency.html">Currency</a></li>
+      </ul>
+      <img class="skull" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Skull-Icon.svg/1200px-Skull-Icon.svg.png?20200217224342" alt="skull">
+      <!--Greene, S. G. (2008, December 8). Skull icon. https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Skull-Icon.svg/1200px-Skull-Icon.svg.png?20200217224342-->
+        
+      <a id="email" href="mailto:ayancooper01@gmail.com">Send me an email</a>
+    </div>
+    <!--Navigation bar that links to other pages. Also includes a skull logo (skulls are often associated with Helldivers 2) and a mailto link.-->
+    
+    <div class="overview">
+      <h2>Ship Modules</h2>
+      <p class="summary">
+        At higher difficulties, it can become harder to survive to the point where not even
+        Stratagems are guarenteed to save players. However, Stratagems can be improved through
+        upgrades of the Ship Module. These upgrades affect various traits of Stratagems, such as
+        reducing Stratagem cooldown time, increasing damage, maximizing ammo, and more. These upgrades
+        can only be purchased via the samples players collect in missions, so players are advised
+        to collect and extract with as many samples as possible.
+      </p>
+    </div>
+    <!--Content explaining what you'll find on this page. For this page in particular, you'll find information about the purchaseable Ship Moudle upgrades in Helldivers 2-->
+    
+    <div class="sideDivs">
+      <div class="moduleCategories">
+        <h2>Ship Module Upgrades</h2>
+        <p>Here you'll find the upgrades provided when fully upgrading a Ship Module</p>
+        <table class="moduleTable">
+          <tr>
+            <th colspan="2">Ship Module Upgrades</th>
+          </tr>
+          <tr>
+            <th>Category</th>
+            <th>Upgrades</th>
+          </tr>
+          
+          <tr>
+            <td>Patriotic Administration Center</td>
+            <td>Reduces cooldown of Support Weapon and Backpack Stratagems by 10%;
+            Support Weapons deployed with max ammo</td>
+          </tr>
+          
+          <tr>
+            <td>Orbital Cannons</td>
+            <td>Orbital Stratagems have increased damage past center explosion and cooldowns
+            are reduced by 10%; Orbital Barrage Stratagems fire one additional time</td>
+          </tr>
+          
+          <tr>
+            <td>Hangar</td>
+            <td>Eagle Stratagems: Cooldown reduced by 10%, provides a rearm with a cooldown
+            of 10%, and can be used one additional time per rearm</td>
+          </tr>
+          
+          <tr>
+            <td>Bridge</td>
+            <td>Mini-map vision range is increased by 50 meters; Eagle Stratagems rearm cooldown
+            reduced by 10%; better control of Hellpod (device used when entering mission or
+            respawning)</td>
+          </tr>
+          
+          <tr>
+            <td>Engineering Bay</td>
+            <td>Sentry, Emplacement, and Resupply Stratagems' cooldowns are reduced by 10 percent;
+            Sentry Stratagems' health counts are increased by 50 percent; Emplacement stratagems are 
+            deployed instantly</td>
+          </tr>
+          
+          <tr>
+            <td>Robotics Workshop</td>
+            <td>Sentry Stratagems: Deployment time reduced, ammo increased by 50%, and
+            rotate speed increased</td>
+          </tr>
+        </table>
+      </div>
+      <!--A table containing information about the various upgrades given when purchasing Ship Modules-->
+      
+      <div class="bestUpgrades">
+        <h2>Upgrades to Prioritize</h2>
+        <p>
+          There are tons of Ship Module upgrades to purchase, so there are a few players recommend
+          to prioritze right away to help have a better experience. Players recommend uprgading the
+          Patriotic Administration Center, Orbital Cannons, and Hangar categories to the first level.
+          This ensures Support Weapons are deployed wth max ammo, Orbital Stratagems do extra damage,
+          and Eagle Stratagems have a reduced cooldown time respectively.
+        </p>
+      </div>
+      <!--Brief paragraph explaining what upgrades players should priortize purchasing first-->
+        
+    </div>
+    <!--A container div to keep 2 other divs containing organized information about the current page on the right-->
+    
+    <div class="videoDiv">
+      <h3>Best Ship Module Upgrades</h3>
+      <div class="video">
+        <iframe class="playVid" title="video" width="420" height="315" 
+              src="https://www.youtube.com/embed/mKLNwawg99o">
+        </iframe>
+        <!--"THE BEST SHIP MODULE UPGRADES IN HELLDIVERS 2 - ULTIMATE SHIP GUIDE | DONT WASTE SAMPLES." YouTube, uploaded by Crazymrpipz, 25 February 2024, https://www.youtube.com/embed/mKLNwawg99o-->
+          
+      </div>
+      <div class="videoText">
+        <p class="videoExplain">
+          This video covers what Ship Modules players should prioritize to avoid wasting samples
+        </p>
+      </div>
+    </div>
+    <!--Div that includes a video relevant to the content on the current page and a brief explanation of what is covered in that video-->
+      
+    <div class="userInput">
+      <label class="choice" for="in">What should Helldivers fight for?</label>
+      <input class="input" type="text" size="30" id="in"/>
+      <button class="check" onclick="userAnswer()">Click to see content</button>
+      <p id="display"></p>
+    </div>
+    <!--Div that uses the JavaScript function userAnswer() to take and display user input-->
+    
+    <div class="launchTheme">
+      <p>Launch, Helldiver!</p>
+      <input id="play" type="button" value="PLAY" onclick="playAudio()">
+      <input id="stop" type="button" value="STOP" onclick="stopAudio()">
+      <audio id="launch" src="https://www.albany.edu/~ac723289/h2Launch.mp3"></audio>
+      <!--src="https://www.albany.edu/~ac723289/h2Launch.mp3"-->
+    </div>
+    <!--Div that uses the JavaScript functions playAudio() and stopAudio() to play and stop an audio clip-->
+    
+    <div class="intrapageLink">
+      <p><a href="#top">Back to top</a></p>
+    </div>
+    <!--Intrapage link that brings users back to the top of the page-->
+    
+    <script src="finalScript.js"></script>
+    <!--Links the JavaScript to the HTML-->
+  </body>
+</html>

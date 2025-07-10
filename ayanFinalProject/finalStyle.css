@@ -1,0 +1,440 @@
+* {
+  font-family: Verdana, Geneva, sans-serif;
+  color:white;
+}
+/*Sets the font style and color to Verdana and white respectively*/
+
+body {
+  background-color:black;
+}
+/*Sets the background color of the website to black*/
+
+.header {
+  margin:auto; text-align:center;
+}
+/*Centers the title of the page*/
+
+a[name="top"] {
+  color:#fcec04;
+}
+/*Changes the color of the title*/
+
+.nav {
+  margin:auto; text-align:center;
+}
+/*Aligns content in nav div*/
+
+.navbar {
+  list-style-type:none; padding:0; margin:0; overflow:hidden;
+}
+/*Styles the navbar to remove list style and add spacing in between links*/
+
+.navlinks {
+  float:left;
+}
+/*Lines links next to each other*/
+
+.navlinks a {
+  margin:auto;
+  display:block; 
+  color:black; 
+  text-align:center; 
+  padding:14px 16px;
+  text-decoration:none; 
+  background-color:#dddddd;
+}
+/*Aligns, sets the text color, and sets the background color of navbar links*/
+
+.navlinks a:hover {
+  background-color:#fcec04;
+}
+/*Changes the background color of navbar links when hovering over them*/
+
+.skull {
+  width:50px;
+  height:50px;
+  position:relative;
+  left:115px;
+  bottom:47px;
+}
+/*Changes size of the skull image and positions it*/
+
+#email {
+  position:relative;
+  left:565px;
+  bottom:67px;
+}
+/*Positions the mailto link*/
+
+table, th, td {
+  border:1px solid white;
+}
+/*Sets the border for tables found throughout the website*/
+
+.overview {
+  float:left;
+  width:55%;
+  height:596px;
+  padding:3px;
+  border:3px solid white;
+  margin:4px;
+}
+/*Positions the overview div to the left and adds a border around the div*/
+
+.summary {
+  font-size:20px;
+  text-align:center;
+  position:relative;
+  top:100px;
+}
+/*Changes the font size of the page's explanation and positions it inside the overview div*/
+
+.sideDivs {
+  float:left;
+  width:42%;
+}
+/*Positions content in the side div to the right*/
+
+.videoDiv {
+  position:relative;
+  left:20%;
+}
+/*Positions video div to be under the overview and sideDivs divs*/
+
+.video {
+  float:left;
+}
+/*Positions the video to float left*/
+
+.videoText {
+  float:left;
+}
+/*Aligns the video explanation next to the video*/
+
+.videoExplain {
+  position:relative;
+  top:100px;
+  padding:3px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border:3px solid white;
+  margin:4px;
+}
+/*Positions the video explanation text and adds a border around the text*/
+
+.userInput {
+  position: relative;
+  top: 350px;
+}
+/*Positions the user input div to be under the video div*/
+
+.choice {
+  position: relative;
+  right: 550px;
+}
+/*Aligns the position of the initial message prompting users to provide input*/
+
+.input {
+  position: relative;
+  right: 550px;
+  color: black;
+  float:left;
+}
+/*Aligns the position of input box and changes its text color to ensure it is readable*/
+
+.check {
+  background-color: black;
+  color: white;
+  position: relative;
+  right:35%;
+}
+/*Aligns the position of the button to see results after entering input and changes the background color & text color to ensure the button is readable*/
+
+#display {
+  position:relative;
+  left: 13%;
+}
+/*Aligns the position of the displayed message after clicking the button associated with user input*/
+
+.launchTheme {
+  position:relative;
+  top:400px;
+  left:220px;
+}
+/*Positions the audio play/stop div under the user input div*/
+
+#play {
+  position:relative;
+  left:20px;
+  color:black;
+}
+
+#stop {
+  position:relative;
+  left:20px;
+  color:black;
+}
+/*Aligns the positions of the PLAY and STOP buttons while also changing their color to ensure they're readable*/
+
+.intrapageLink {
+  position:relative;
+  right:33%;
+  top:500px;
+  left:17%;
+}
+/*Positions the intrapage link to be at the bottom of the page*/
+
+/*From 'body' to 'intrapageLink' the styled content are elements you can find across nearly all pages (some pages may not have a table)*/
+
+.operationTypes {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.listOfOperations {
+  list-style-type:none; 
+  padding:0; 
+  margin:0; 
+  overflow:hidden;
+}
+/*Styles the list items in listOfOperations*/
+
+.difficulties {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.listOfDifficulties {
+  list-style-type:none; 
+  padding:0; 
+  margin:0; 
+  overflow:hidden;
+}
+/*Styles the list items in listOfDifficulties*/
+
+.setDifficulty {
+  float:left;
+  display:block;
+  padding:14px 5px;
+}
+/*Lines list items in listOfDifficulties next to each other*/
+
+/*'operationTypes' to 'setDifficulty': styles content found on gameplay page*/
+
+.enemiesExplained {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.strategy {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'enemiesExplained' to 'strategy': styles content found on enemy page*/
+
+.weaponClasses {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.recommendedWeapons {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'weaponClasses' to 'recommendedWeapons': styles content found on weapon page*/
+
+.armorTypes {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.passiveAbilities {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'armorTypes' to 'passiveAbilities': styles content found on armor page*/
+
+
+.categories {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.loadout {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'categories' to 'loadout': styles content found on stratagem page*/
+
+.moduleCategories {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.bestUpgrades {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'moduleCategories' to 'bestUpgrades': styles content found on modules page*/
+
+.allCurrency {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.priorityCurrency {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'allCurrency' to 'priorityCurrency': styles content found on currency page*/
+
+@media only screen and (max-width:575px) {
+  
+  .skull {
+    width:50px;
+    height:50px;
+    position:relative;
+    left:20px;
+    bottom:47px;
+    top:7px;
+  }
+  
+  #email {
+    position:relative;
+    left:35px;
+    top:1px;
+    bottom:67px;
+  }
+  
+  .overview {
+    float:left;
+    width:95%;
+    height:1006px;
+    padding:3px;
+    border:3px solid white;
+    margin:4px;
+  }
+  
+  .sideDivs {
+    float:left;
+    width:100%;
+  }
+  
+  .videoDiv {
+    position:relative;
+    left:1%;
+  }
+  
+  .playVid {
+    width:130%;
+    height:250px;
+  }
+  
+  .videoExplain {
+    position:relative;
+    top:20px;
+    right:6px;
+    padding:3px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:3px solid white;
+    margin:4px;
+  }
+  
+  .userInput {
+    position: relative;
+    top: 100px;
+    right: 90%;
+    
+  }
+  
+  .choice {
+    position: relative;
+    top:270px;
+    left:53%;
+    width:50%;
+  }
+
+  .input {
+    position: relative;
+    top:10px;
+    left: 108%;
+    color: black; 
+  }
+  
+  .check {
+    background-color: black;
+    color: white;
+    position: relative;
+    top:50px;
+    left:58%;
+  }
+  
+  #display {
+    position:relative;
+    top:80px;
+    left:115%;
+  }
+  
+  .launchTheme {
+    position:relative;
+    top:200px;
+    left:30%;
+  }
+
+  #play {
+    position:relative;
+    left:15px;
+    color:black;
+  }
+
+  #stop {
+    position:relative;
+    left:15px;
+    color:black;
+  }
+  
+  .intrapageLink {
+    position:relative;
+    right:33%;
+    top:250px;
+    left:37%;
+  }
+  /*Common elements found among the pages (overview, side divs, video div, etc.) are resized and stacked upon each other to look better for mobile devices.*/
+  
+}
+/*This media query rearranges the layout so that the screen at a max width of 575px, divs are stacked on top of each other so the site looks better on mobile devices.*/

@@ -1,0 +1,268 @@
+* {
+  font-family: Verdana, Geneva, sans-serif;
+  color:white;
+}
+/*Sets the font style and color to Verdana and white respectively*/
+
+body {
+  background-color:black;
+}
+/*Sets the background color of the website to black*/
+
+.header {
+  margin:auto; text-align:center;
+}
+/*Centers the title of the page*/
+
+a[name="top"] {
+  color:#fcec04;
+}
+/*Changes the color of the title*/
+
+.nav {
+  margin:auto; text-align:center;
+}
+/*Aligns content in nav div*/
+
+.navbar {
+  list-style-type:none; padding:0; margin:0; overflow:hidden;
+}
+/*Styles the navbar to remove list style and add spacing in between links*/
+
+.navlinks {
+  float:left;
+}
+/*Lines links next to each other*/
+
+.navlinks a {
+  margin:auto;
+  display:block; 
+  color:black; 
+  text-align:center; 
+  padding:14px 16px;
+  text-decoration:none; 
+  background-color:#dddddd;
+}
+/*Aligns, sets the text color, and sets the background color of navbar links*/
+
+.navlinks a:hover {
+  background-color:#fcec04;
+}
+/*Changes the background color of navbar links when hovering over them*/
+
+.skull {
+  width:50px;
+  height:50px;
+  position:relative;
+  left:115px;
+  bottom:47px;
+}
+/*Changes size of the skull image and positions it*/
+
+#email {
+  position:relative;
+  left:565px;
+  bottom:67px;
+}
+/*Positions the mailto link*/
+
+table, th, td {
+  border:1px solid white;
+}
+/*Sets the border for tables found throughout the website*/
+
+.overview {
+  float:left;
+  width:55%;
+  height:596px;
+  padding:3px;
+  border:3px solid white;
+  margin:4px;
+}
+/*Positions the overview div to the left and adds a border around the div*/
+
+.summary {
+  font-size:20px;
+  text-align:center;
+  position:relative;
+  top:100px;
+}
+/*Changes the font size of the page's explanation and positions it inside the overview div*/
+
+.sideDivs {
+  float:left;
+  width:42%;
+}
+/*Positions content in the side div to the right*/
+
+.videoDiv {
+  position:relative;
+  left:20%;
+}
+/*Positions video div to be under the overview and sideDivs divs*/
+
+.video {
+  float:left;
+}
+/*Positions the video to float left*/
+
+.videoText {
+  float:left;
+}
+/*Aligns the video explanation next to the video*/
+
+.videoExplain {
+  position:relative;
+  top:100px;
+  padding:3px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border:3px solid white;
+  margin:4px;
+}
+/*Positions the video explanation text and adds a border around the text*/
+
+.intrapageLink {
+  position:relative;
+  right:33%;
+  top:400px;
+}
+/*Positions the intrapage link to be at the bottom of the page*/
+
+/*From 'body' to 'intrapageLink' the styled content are elements you can find across nearly all pages (some pages may not have a table)*/
+
+.operationTypes {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.listOfOperations {
+  list-style-type:none; 
+  padding:0; 
+  margin:0; 
+  overflow:hidden;
+}
+/*Styles the list items in listOfOperations*/
+
+.difficulties {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.listOfDifficulties {
+  list-style-type:none; 
+  padding:0; 
+  margin:0; 
+  overflow:hidden;
+}
+/*Styles the list items in listOfDifficulties*/
+
+.setDifficulty {
+  float:left;
+  display:block;
+  padding:14px 5px;
+}
+/*Lines list items in listOfDifficulties next to each other*/
+
+/*'operationTypes' to 'setDifficulty': styles content found on gameplay page*/
+
+.enemiesExplained {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.strategy {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'enemiesExplained' to 'strategy': styles content found on enemy page*/
+
+.weaponClasses {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.recommendedWeapons {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'weaponClasses' to 'recommendedWeapons': styles content found on weapon page*/
+
+.armorTypes {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.passiveAbilities {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'armorTypes' to 'passiveAbilities': styles content found on armor page*/
+
+
+.categories {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.loadout {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'categories' to 'loadout': styles content found on stratagem page*/
+
+.moduleCategories {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.bestUpgrades {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'moduleCategories' to 'bestUpgrades': styles content found on modules page*/
+
+.allCurrency {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+.priorityCurrency {
+  padding:3px;
+  border: 3px solid white;
+  margin:4px;
+}
+/*Adds a border around the div*/
+
+/*'allCurrency' to 'priorityCurrency': styles content found on currency page*/
